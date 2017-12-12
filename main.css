@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: courier;
+}
+
+body {
+  background: blue;
+}
+
+header {
+  height: 50px;
+  background-color: #6ad2f3;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.reto {
+  margin: 3%;
+  background-color: white;
+  width: 45%;
+  height: 60%;
+  display: inline-block;
+}
+
+.ejemplo{
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  float: right;
+}
+
+textarea {
+  overflow:hidden;
+  margin: 0px auto;
+  display:block;
+  font-size: 20px;
+  width: 95%;
+  border: 0;
+  border-bottom: 1px solid blue;
+  height: auto;
+  resize: none;
+}
+
+.agregar-msj{
+  clear: right;
+}
